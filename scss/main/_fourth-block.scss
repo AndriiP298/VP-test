@@ -198,11 +198,11 @@
     .compose-message {
       button {
         @include loadFont(
-            $style: normal,
-            $weight: normal,
-            $size: 1.125rem /*18px*/ ,
-            $family: "SF-Pro-Rounded-Medium"
-          );
+          $style: normal,
+          $weight: normal,
+          $size: 1.125rem /*18px*/,
+          $family: "SF-Pro-Rounded-Medium"
+        );
         letter-spacing: 0.025rem; //0.4px
         background-color: #0d77f2;
         border-radius: 3.125rem; //50px
@@ -237,20 +237,20 @@
 
       .title {
         @include loadFont(
-            $style: normal,
-            $weight: normal,
-            $size: 1.375rem /*22px*/ ,
-            $family: "SF-Pro-Rounded-Semibold"
-          );
+          $style: normal,
+          $weight: normal,
+          $size: 1.375rem /*22px*/,
+          $family: "SF-Pro-Rounded-Semibold"
+        );
         margin-right: 0.625rem; //10px;
       }
 
       .month {
         @include loadFont(
-          $font-color:#797d95,
+          $font-color: #797d95,
           $style: normal,
           $weight: normal,
-          $size: 1rem /*16px*/ ,
+          $size: 1rem /*16px*/,
           $family: "SF-Pro-Rounded-Light"
         );
       }
@@ -259,7 +259,7 @@
         @include loadFont(
           $style: normal,
           $weight: normal,
-          $size: 1rem /*16px*/ ,
+          $size: 1rem /*16px*/,
           $family: "SF-Pro-Rounded-Light"
         );
       }
@@ -306,7 +306,9 @@
   }
 }
 
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 1600px),
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi) {
   .fourth-campaign-message {
     max-width: 52.188rem; //835px
 

@@ -438,7 +438,7 @@ a:hover {
   font-family: "SF-Pro-Rounded-Semibold";
 }
 
-@media (max-width: 1600px) {
+@media screen and (max-width: 1600px), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .vp-header .main-header {
     max-width: 52.188rem;
     padding: 0.313rem 0;
@@ -742,7 +742,7 @@ a:hover {
   color: #5b6179;
 }
 
-@media (max-width: 1600px) {
+@media screen and (max-width: 1600px), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .main-layout-container .campaign-contact-list {
     margin-top: 4.375rem;
   }
@@ -1030,7 +1030,7 @@ a:hover {
   opacity: 0.5;
 }
 
-@media (max-width: 1600px) {
+@media screen and (max-width: 1600px), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .main-layout-container .campaign-contact-list .second-block-campaign {
     max-width: 52.188rem;
     padding: 1.25rem 1.563rem 0.625rem 1.875rem;
@@ -1512,7 +1512,7 @@ a:hover {
   color: #a7abc1;
 }
 
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 1600px), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .fourth-campaign-message {
     max-width: 52.188rem;
   }
